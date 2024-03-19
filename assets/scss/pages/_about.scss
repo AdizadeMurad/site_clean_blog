@@ -1,0 +1,135 @@
+
+.container{
+    max-width: 1200px;
+    }
+    .navbar{
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding: 30px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)
+    ;
+    }
+    h2{
+        color: white;
+        font-size: BOLDER;
+    }
+    .navbar__list{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        color: white;
+        font-weight: bolder;
+    }
+    .button__menu{
+        display: none;
+    }
+    @media only screen and (max-width: 1200px){
+        .navbar{
+            max-width: 960px;
+            justify-content: space-between;
+            align-items: center;
+            display: flex;
+            
+            margin: auto;
+            padding: 30px;
+            }
+    }
+    @media only screen and (max-width: 990px){
+    
+        .button__menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 80px;
+        height: 40px;
+    }
+    .navbar__list{
+        display: none;
+        
+    }
+    .navbar{
+        max-width: 720px;
+        padding: 10px;
+    }
+    }
+    @media only screen and (max-width: 768px){
+        .navbar{
+            max-width: 540px;
+            padding: 7px;
+        }
+        .navbar__list{
+            display: none;
+            
+        }
+    }
+    .overlay__blog{
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        min-height: 600px;
+        background-image: url(../imgs/about-bg.jpg);
+        }
+        .overlay__text{
+        
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .blog__text{
+            font-size: 24px;
+            color: white;
+            
+        }
+        .blog__head{
+            font-size: 80px;
+            color: white;
+           
+        }
+    
+        .text__about{
+            max-width: 654px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            padding: 20px;
+        }
+    
+    
+        .footer__icon{ font-size: 37px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .footer__text{ font-size: 20px;
+            display: flex;
+            gap: 20px;
+            justify-content: center;
+            align-items: center;
+            color: rgb(161, 161, 161);
+            
+        }
+        .footer__general{
+            padding-top: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center ;
+            gap: 20px;
+            padding-bottom: 50px;
+        }
+        .footer{
+            max-width: 100%;
+            
+        
+        }
+        
