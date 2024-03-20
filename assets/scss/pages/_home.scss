@@ -1,9 +1,26 @@
+
+ul{
+    li{
+a{
+color: white;
+}
+    }
+}
+
+
 .overlay__blog{
     background-position: center;
     display: flex;
     justify-content: center;
-    min-height: 600px;
-    background-image: url(../imgs/home-bg.jpg);
+   min-height: 530px;
+        background-image: linear-gradient(
+      to top,
+      rgba(26, 26, 26, 0.5),
+      rgba(23, 23, 23, 0.5)
+    ),
+    url("/assets/imgs/home-bg.jpg");
+        
+    background-size: cover;
     }
     .overlay__text{
     
@@ -15,6 +32,7 @@
     .blog__text{
         font-size: 24px;
         color: white;
+        
         
     }
     .blog__head{
