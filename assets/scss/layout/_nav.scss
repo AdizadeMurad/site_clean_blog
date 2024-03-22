@@ -1,21 +1,22 @@
+.container {
+    max-width: 100%;
 
-.container{
-max-width: 1200px;
-}
-.navbar{
-max-width: 1140px;
-justify-content: space-between;
-align-items: center;
-display: flex;
-margin: auto;
-padding: 20px;
-position: absolute;
-left: 50%;
-transform: translateX(-50%)
-;
+
 }
 
-.navbar__list{
+.navbar {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    padding: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.navbar__list {
     margin-right: 35px;
     display: flex;
     justify-content: center;
@@ -27,72 +28,91 @@ transform: translateX(-50%)
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
 }
-.button__menu{
+
+.button__menu {
     display: none;
 }
-.start__text{
-font-family: "Open Sans", sans-serif;
-font-size: 20px;
-text-decoration: none;
-color: white;
-font-weight: 1000;
+
+.start__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: 1000;
 }
-.navbar__container{
-    max-width: 1440px;
+
+.a__color__home {
+    color: white;
+
 }
-@media only screen and (max-width: 1200px){
-    .navbar{
+
+@media only screen and (max-width: 1200px) {
+    .navbar {
         max-width: 960px;
         justify-content: space-between;
         align-items: center;
         display: flex;
-        
         margin: auto;
         padding: 30px;
-        }
-}
-@media only screen and (max-width: 990px){
+    }
 
-    .button__menu{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: white;
-    width: 80px;
-    height: 40px;
-}
-.navbar__container{max-width: 100%;
-    background-color: white;
-
-}
-.navbar__list{
-    display: none;
-    
-}
-
-.navbar{
-    max-width: 720px;
-    padding: 10px;
-}
-
-.start__text{
-color: black;
+    .navbar__list {
+        font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        ;
+        margin-right: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        color: rgb(255, 255, 255);
+        font-weight: bolder;
+    }
 
 }
+
+@media only screen and (max-width: 990px) {
+
+    .button__menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: white;
+        width: 80px;
+        height: 40px;
+        border: 1px solid rgb(226, 226, 226);
+
+    }
+
+    .navbar__list {
+        display: none;
+
+    }
+
+    .navbar {
+        max-width: 990px;
+        padding: 10px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .start__text {
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-weight: 1000;
+
+    }
 }
 
 
-@media only screen and (max-width: 768px){
-    .navbar{
+@media only screen and (max-width: 768px) {
+    .navbar {
         max-width: 540px;
         padding: 7px;
     }
-    .navbar__list{
+
+    .navbar__list {
         display: none;
-        
+
     }
 }
-
-
-
-

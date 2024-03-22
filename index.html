@@ -9,33 +9,34 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
-            rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
 
 </head>
+
 <body>
     <section class="container">
-        <nav class="navbar__container">
+        <nav>
             <div class="navbar">
-            <div class="start">
-                <a class="start__text" href="">Start Bootstrap</a>
+                <div class="start">
+                    <a class="start__text" href="">Start Bootstrap</a>
+                </div>
+                <ul class="navbar__list">
+                    <li><a class="a__color__home" href="index.html">HOME</a></li>
+                    <li><a class="a__color__home" href="about.html">ABOUT</a></li>
+                    <li><a class="a__color__home" href="samplePost.html">SAMPLE POST</a></li>
+                    <li><a class="a__color__home" href="contact.html">CONTACT</a></li>
+                </ul>
+                <button class="button__menu">MENU<i class="fa-solid fa-bars"></i></button>
             </div>
-            <ul class="navbar__list">
-                <li><a href="index.html">HOME</a></li>
-                <li><a href="about.html">ABOUT</a></li>
-                <li><a href="samplePost.html">SAMPLE POST</a></li>
-                <li><a href="contact.html">CONTACT</a></li>
-            </ul>
-            <button class="button__menu">MENU<i class="fa-solid fa-bars"></i></button>
-        </div>
-    </nav>
-        
+        </nav>
+
     </section>
     <main>
         <section class="overlay__blog">
@@ -50,35 +51,53 @@
     <section class="texts">
         <div class="text__general">
             <div class="text">
-                <a href=""><p class="text__head">Man must explore, and this is exploration at its greatest</p></a>
-               <a href=""><p class="text__middle">Problems look mighty small from 150 miles up</p></a> 
+                <a href="">
+                    <p class="text__head">Man must explore, and this is exploration at its greatest</p>
+                </a>
+                <a href="">
+                    <p class="text__middle">Problems look mighty small from 150 miles up</p>
+                </a>
                 <p class="text__end">Posted by <a class="start__bootstrap">Start Bootstrap</a> on September 24, 2023
                 </p>
             </div>
             <div class="text">
-               <a href=""> <p class="text__head">I believe every human has a finite number of heartbeats.</p></a>
-                <a href=""><p class="text__middle">I don't intend to waste any of mine.</p></a>
-                <p class="text__end">Posted by <a class="start__bootstrap" >Start Bootstrap</a> on September 18, 2023</p>
+                <a href="">
+                    <p class="text__head">I believe every human has a finite number of heartbeats.</p>
+                </a>
+                <a href="">
+                    <p class="text__middle">I don't intend to waste any of mine.</p>
+                </a>
+                <p class="text__end">Posted by <a class="start__bootstrap">Start Bootstrap</a> on September 18, 2023</p>
             </div>
             <div class="text">
-                <a href=""><p class="text__head">Science has not yet mastered prophecy</p></a>
-                <a href=""><p class="text__middle">We predict too much for the next year and yet far too little for the next ten. </p>  </a>
-                
-                <p class="text__end">Posted by <a class="start__bootstrap" href="" >Start Bootstrap </a> on August 24, 2023</p>
-            </div>
-            <div class="text__failure">
-                <a href=""><p class="text__head__failure">Failure is not an option</p></a>
-                <a href=""><p class="text__middle__failure">Many say exploration is part of our destiny, but it’s actually our duty to future generations.</p></a>
-                   
-                <p class="text__end__failure">Posted by <a class="start__bootstrap" href="" >Start Bootstrap </a> on July 8, 2023</p>
-              <div class="btn">
-                    <a href=""><button class="button__older__post">OLDER POSTS<i style="padding-left: 10px;font-size: 12px;"
-                        class="fa-solid fa-arrow-right-long"></i></button></a>
-                        </div>
-            </div>
-             
+                <a href="">
+                    <p class="text__head">Science has not yet mastered prophecy</p>
+                </a>
+                <a href="">
+                    <p class="text__middle">We predict too much for the next year and yet far too little for the next
+                        ten. </p>
+                </a>
 
+                <p class="text__end">Posted by <a class="start__bootstrap" href="">Start Bootstrap </a> on August 24,
+                    2023</p>
+            </div>
+            <div class="text">
+                <a href="">
+                    <p class="text__head">Failure is not an option</p>
+                </a>
+                <a href="">
+                    <p class="text__middle">Many say exploration is part of our destiny, but it’s actually our duty to
+                        future generations.</p>
+                </a>
 
+                <p class="text__end">Posted by <a class="start__bootstrap" href="">Start Bootstrap </a> on July 8, 2023
+                </p>
+
+            </div>
+            <div class="btn">
+                <a href=""><button class="button__older__post">OLDER POSTS<i style="padding-left: 10px;font-size: 12px;"
+                            class="fa-solid fa-arrow-right-long"></i></button></a>
+            </div>
         </div>
 
     </section>
@@ -88,10 +107,10 @@
 
     <footer class="footer">
         <div class="footer__general">
-            <div  class="footer__icon">
-               <div  class="icon__background"> <i style="font-size: 25px;" class="fa-brands fa-twitter"></i></div> 
-               <div class="icon__background"><i  style="font-size: 23px;" class="fa-brands fa-facebook-f"></i></div> 
-              <div class="icon__background"><i style="font-size: 25px;" class="fa-brands fa-github"></i></div>  
+            <div class="footer__icon">
+                <div class="icon__background"> <i style="font-size: 25px;" class="fa-brands fa-twitter"></i></div>
+                <div class="icon__background"><i style="font-size: 23px;" class="fa-brands fa-facebook-f"></i></div>
+                <div class="icon__background"><i style="font-size: 25px;" class="fa-brands fa-github"></i></div>
 
             </div>
             <div class="footer__text">
